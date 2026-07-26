@@ -1,0 +1,77 @@
+/**
+ * Four Peaks Pastoral — Brand Design Tokens
+ * Source: Refreshed Brand Guide 2026 (Version 2.0)
+ *
+ * Drop this file into any project and use the CSS custom properties below.
+ * Example: color: var(--fp-navy); font-family: var(--fp-font-heading);
+ */
+
+:root {
+  /* ——— Brand colours ——— */
+  --fp-olive: #9e985e; /* Alpine Olive — landscapes, agriculture, growth */
+  --fp-navy: #13294d; /* Mountain Navy — PRIMARY — trust, professionalism */
+  --fp-sky: #5a7dab; /* Sky Blue — aerial capability, mapping, tech */
+  --fp-orange: #f9a53e; /* Sunrise Orange — energy, field ops, safety */
+  --fp-grey: #c8c9ca; /* Granite Grey — engineering, equipment */
+
+  /* Semantic aliases */
+  --fp-primary: var(--fp-navy);
+  --fp-accent: var(--fp-olive);
+  --fp-highlight: var(--fp-orange);
+  --fp-secondary: var(--fp-sky);
+  --fp-muted: var(--fp-grey);
+
+  /* Surfaces & text */
+  --fp-bg: #ffffff;
+  --fp-bg-soft: #f5f6f7;
+  --fp-bg-navy: var(--fp-navy);
+  --fp-text: #13294d;
+  --fp-text-body: #3a4558;
+  --fp-text-on-navy: #ffffff;
+  --fp-text-muted: #6b7380;
+  --fp-rule: var(--fp-olive);
+
+  /* Typography — Brand Guide 2026: Verdana headings, Montserrat body/UI */
+  --fp-font-heading: "Verdana", "Geneva", "Tahoma", sans-serif;
+  --fp-font-body: "Montserrat", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+  --fp-weight-regular: 400;
+  --fp-weight-medium: 500;
+  --fp-weight-semibold: 600;
+  --fp-weight-bold: 700;
+
+  --fp-tracking-label: 0.14em;
+  --fp-tracking-subhead: 0.08em;
+
+  /* Type scale (rem) */
+  --fp-text-xs: 0.75rem;
+  --fp-text-sm: 0.875rem;
+  --fp-text-base: 1rem;
+  --fp-text-lg: 1.125rem;
+  --fp-text-xl: 1.35rem;
+  --fp-text-2xl: 1.75rem;
+  --fp-text-3xl: 2.25rem;
+  --fp-text-4xl: 3rem;
+  --fp-text-display: clamp(2.5rem, 5vw, 4rem);
+
+  /* Spacing */
+  --fp-space-1: 0.25rem;
+  --fp-space-2: 0.5rem;
+  --fp-space-3: 0.75rem;
+  --fp-space-4: 1rem;
+  --fp-space-5: 1.5rem;
+  --fp-space-6: 2rem;
+  --fp-space-7: 3rem;
+  --fp-space-8: 4.5rem;
+  --fp-space-9: 6rem;
+
+  /* Layout */
+  --fp-max-width: 72rem;
+  --fp-content-width: 40rem;
+  --fp-radius: 0;
+  --fp-radius-soft: 0.25rem;
+
+  /* Motion */
+  --fp-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --fp-duration: 400ms;
+}

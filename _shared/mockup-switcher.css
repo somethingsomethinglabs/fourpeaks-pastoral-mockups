@@ -1,0 +1,80 @@
+.mockup-switcher {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 0.65rem 1rem;
+  font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: #f6f5f1;
+  background: rgba(19, 41, 77, 0.94);
+  border-top: 1px solid rgba(142, 139, 94, 0.45);
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(8px);
+}
+
+.mockup-switcher__label {
+  color: rgba(246, 245, 241, 0.72);
+  white-space: nowrap;
+}
+
+.mockup-switcher__current {
+  font-weight: 700;
+  color: #f6f5f1;
+}
+
+.mockup-switcher__links {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mockup-switcher__link {
+  display: inline-block;
+  padding: 0.3rem 0.65rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #f6f5f1;
+  background: rgba(142, 139, 94, 0.22);
+  border: 1px solid rgba(142, 139, 94, 0.4);
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.mockup-switcher__link:hover,
+.mockup-switcher__link:focus-visible {
+  background: rgba(142, 139, 94, 0.38);
+  border-color: rgba(142, 139, 94, 0.65);
+  outline: none;
+}
+
+.mockup-switcher__link--gallery {
+  background: transparent;
+  border-color: rgba(246, 245, 241, 0.28);
+  color: rgba(246, 245, 241, 0.85);
+}
+
+.mockup-switcher__sep {
+  color: rgba(246, 245, 241, 0.35);
+  user-select: none;
+}
+
+@media (max-width: 520px) {
+  .mockup-switcher {
+    padding: 0.55rem 0.75rem;
+    font-size: 0.78rem;
+  }
+
+  .mockup-switcher__label {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Four Peaks Pastoral — Website Mockups</title>
+    <meta
+      name="description"
+      content="Design preview for Four Peaks Pastoral website mockups. Select a direction to explore."
+    />
+    <style>
+      :root {
+        --navy: #13294d;
+        --olive: #8e8b5e;
+        --ink: #1a2230;
+        --muted: #5c6574;
+        --line: rgba(19, 41, 77, 0.14);
+        --paper: #f6f5f1;
+        --white: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+        color: var(--ink);
+        background: linear-gradient(180deg, #eef0f3 0%, var(--paper) 42%, var(--paper) 100%);
+        min-height: 100vh;
+        line-height: 1.5;
+      }
+
+      .wrap {
+        width: min(720px, calc(100% - 2.5rem));
+        margin: 0 auto;
+        padding: 3.5rem 0 4.5rem;
+      }
+
+      header {
+        margin-bottom: 2.25rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand {
+        margin: 0 0 0.35rem;
+        font-size: 0.8rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--olive);
+        font-weight: 700;
+      }
+
+      h1 {
+        margin: 0 0 0.55rem;
+        font-size: clamp(1.55rem, 3.5vw, 2rem);
+        color: var(--navy);
+        line-height: 1.2;
+      }
+
+      .lede {
+        margin: 0;
+        color: var(--muted);
+        max-width: 38rem;
+        font-size: 0.98rem;
+      }
+
+      .note {
+        margin: 1.25rem 0 0;
+        padding: 0.85rem 1rem;
+        font-size: 0.88rem;
+        color: var(--muted);
+        background: var(--white);
+        border: 1px solid var(--line);
+        border-radius: 4px;
+      }
+
+      ol {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 0;
+      }
+
+      li {
+        border-bottom: 1px solid var(--line);
+      }
+
+      li:first-child {
+        border-top: 1px solid var(--line);
+      }
+
+      a.item {
+        display: grid;
+        grid-template-columns: 4.5rem 1fr auto;
+        gap: 1rem;
+        align-items: baseline;
+        padding: 1.15rem 0.15rem;
+        text-decoration: none;
+        color: inherit;
+        transition: background 0.15s ease;
+      }
+
+      a.item:hover,
+      a.item:focus-visible {
+        background: rgba(19, 41, 77, 0.04);
+        outline: none;
+      }
+
+      a.item:focus-visible {
+        box-shadow: inset 0 0 0 2px var(--olive);
+      }
+
+      .num {
+        font-size: 0.85rem;
+        font-weight: 700;
+        color: var(--olive);
+        letter-spacing: 0.04em;
+      }
+
+      .copy h2 {
+        margin: 0 0 0.25rem;
+        font-size: 1.05rem;
+        color: var(--navy);
+      }
+
+      .copy p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+
+      .open {
+        font-size: 0.85rem;
+        font-weight: 700;
+        color: var(--navy);
+        white-space: nowrap;
+      }
+
+      a.item:hover .open {
+        color: var(--olive);
+      }
+
+      footer {
+        margin-top: 2rem;
+        font-size: 0.82rem;
+        color: var(--muted);
+      }
+
+      @media (max-width: 560px) {
+        a.item {
+          grid-template-columns: 3.25rem 1fr;
+          gap: 0.65rem 0.85rem;
+        }
+
+        .open {
+          grid-column: 2;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <p class="brand">Four Peaks Pastoral</p>
+        <h1>Website design preview</h1>
+        <p class="lede">
+          Three design directions to explore. Open any mockup below, then use the switcher bar at
+          the bottom of each page to compare the same page across directions.
+        </p>
+        <p class="note">
+          This is a design preview only. Enquiry forms do not submit to a server.
+        </p>
+      </header>
+
+      <ol>
+        <li>
+          <a class="item" href="mockup-2/index.html">
+            <span class="num">02</span>
+            <span class="copy">
+              <h2>Mockup 2</h2>
+              <p>Trust and credibility — refined spacing, reassurance-first layout.</p>
+            </span>
+            <span class="open">Open →</span>
+          </a>
+        </li>
+        <li>
+          <a class="item" href="mockup-3/index.html">
+            <span class="num">03</span>
+            <span class="copy">
+              <h2>Mockup 3</h2>
+              <p>Bold cinematic — light theme, dramatic type, scroll motion.</p>
+            </span>
+            <span class="open">Open →</span>
+          </a>
+        </li>
+        <li>
+          <a class="item" href="mockup-3-dark/index.html">
+            <span class="num">03</span>
+            <span class="copy">
+              <h2>Mockup 3 — Dark</h2>
+              <p>Same structure as Mockup 3 with a dark palette.</p>
+            </span>
+            <span class="open">Open →</span>
+          </a>
+        </li>
+      </ol>
+
+      <footer>Prepared by Servo ICT for Four Peaks Pastoral.</footer>
+    </div>
+  </body>
+</html>

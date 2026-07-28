@@ -1,0 +1,80 @@
+/**
+ * Four Peaks Pastoral - Brand Design Tokens
+ * Source: Refreshed Brand Guide 2026 (Version 2.0)
+ * Direction: Ground Truth (mockup-1)
+ */
+
+:root {
+  /* Brand colours */
+  --fp-olive: #9e985e;
+  --fp-navy: #13294d;
+  --fp-sky: #5a7dab;
+  --fp-orange: #f9a53e;
+  --fp-grey: #c8c9ca;
+
+  --fp-primary: var(--fp-navy);
+  --fp-accent: var(--fp-olive);
+  --fp-highlight: var(--fp-orange);
+  --fp-secondary: var(--fp-sky);
+  --fp-muted: var(--fp-grey);
+
+  /* Ground Truth surfaces — ink = Mountain Navy; deep = darkened Alpine Olive */
+  --fp-field: #eff0ea;
+  --fp-sheet: #f8f9f5;
+  --fp-ink: var(--fp-navy);
+  --fp-body: #2f4563;
+  --fp-label: #6e6a41;
+  --fp-rule: #b3b19c;
+  --fp-deep: #383b27;
+  --fp-bg: var(--fp-field);
+  --fp-bg-soft: var(--fp-sheet);
+  --fp-bg-navy: var(--fp-deep);
+  --fp-text: var(--fp-ink);
+  --fp-text-body: var(--fp-body);
+  --fp-text-on-navy: #ffffff;
+  --fp-text-muted: #5a6b82;
+
+  /* Typography - Brand Guide: Verdana headings, Montserrat body/UI/labels. */
+  --fp-font-heading: "Verdana", "Geneva", "Tahoma", sans-serif;
+  --fp-font-body: "Montserrat", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --fp-font-mono: var(--fp-font-body);
+
+  --fp-weight-regular: 400;
+  --fp-weight-medium: 500;
+  --fp-weight-semibold: 600;
+  --fp-weight-bold: 700;
+
+  --fp-tracking-label: 0.08em;
+  --fp-tracking-subhead: 0.04em;
+  --fp-tracking-mono: 0.04em;
+
+  --fp-text-xs: 0.75rem;
+  --fp-text-sm: 0.875rem;
+  --fp-text-base: 1rem;
+  --fp-text-lg: 1.125rem;
+  --fp-text-xl: 1.35rem;
+  --fp-text-2xl: 1.75rem;
+  --fp-text-3xl: 2.25rem;
+  --fp-text-4xl: 3.4rem;
+  --fp-text-display: clamp(2.6rem, 5.2vw, 3.9rem);
+
+  --fp-space-1: 0.25rem;
+  --fp-space-2: 0.5rem;
+  --fp-space-3: 0.75rem;
+  --fp-space-4: 1rem;
+  --fp-space-5: 1.5rem;
+  --fp-space-6: 2rem;
+  --fp-space-7: 3rem;
+  --fp-space-8: 4.5rem;
+  --fp-space-9: 6rem;
+
+  --fp-max-width: 78rem;
+  --fp-content-width: 40rem;
+  --fp-gutter-width: 8rem;
+  --fp-radius: 0;
+  --fp-radius-soft: 0;
+
+  --fp-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --fp-duration: 320ms;
+  --fp-duration-reveal: 240ms;
+}

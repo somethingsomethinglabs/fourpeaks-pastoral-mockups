@@ -1,0 +1,75 @@
+/**
+ * Four Peaks Pastoral — Space (Radian Fluid structure)
+ * Brand Guide 2026 colours + typography, oversized display scale
+ */
+
+:root {
+  /* ——— Brand colours ——— */
+  --fp-olive: #9e985e; /* Alpine Olive — landscapes, agriculture, growth */
+  --fp-navy: #13294d; /* Mountain Navy — PRIMARY — trust, professionalism */
+  --fp-sky: #5a7dab; /* Sky Blue — aerial capability, mapping, tech */
+  --fp-orange: #f9a53e; /* Sunrise Orange — energy, field ops, safety */
+  --fp-granite: #c8c9ca; /* Granite Grey — engineering, equipment */
+  --fp-cream: #f4f1e4;
+  --fp-white: #ffffff;
+
+  /* Semantic aliases */
+  --fp-primary: var(--fp-navy);
+  --fp-accent: var(--fp-olive);
+  --fp-highlight: var(--fp-orange);
+  --fp-secondary: var(--fp-sky);
+
+  /* Surfaces & text — brand roles */
+  --fp-field: #ffffff;
+  --fp-field-soft: #f5f6f7;
+  --fp-band: #eff0ea; /* cool field wash for CTA bands */
+  --fp-deep: var(--fp-navy);
+  --fp-ink: var(--fp-navy);
+  --fp-body: #3a4558;
+  --fp-muted: #6b7380;
+  --fp-on-deep: #ffffff;
+
+  /* Typography — Brand Guide 2026: Verdana headings, Montserrat body/UI */
+  --fp-font-heading: "Verdana", "Geneva", "Tahoma", sans-serif;
+  --fp-font-body: "Montserrat", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+  --fp-weight-regular: 400;
+  --fp-weight-medium: 500;
+  --fp-weight-semibold: 600;
+  --fp-weight-bold: 700;
+
+  --fp-tracking-label: 0.14em;
+  --fp-tracking-subhead: 0.08em;
+
+  /* Radian-scale display: push Verdana large with tight leading */
+  --fp-text-display: clamp(2.75rem, 7.5vw, 6.5rem);
+  --fp-text-mega: clamp(2.25rem, 5.5vw, 4.75rem);
+  --fp-text-h2: clamp(1.85rem, 3.2vw, 2.75rem);
+  --fp-text-h3: clamp(1.2rem, 1.8vw, 1.45rem);
+  --fp-text-h4: 1.05rem;
+  --fp-text-body: 1rem;
+  --fp-text-sm: 0.875rem;
+  --fp-text-xs: 0.75rem;
+
+  --fp-space-1: 0.25rem;
+  --fp-space-2: 0.5rem;
+  --fp-space-3: 0.75rem;
+  --fp-space-4: 1rem;
+  --fp-space-5: 1.5rem;
+  --fp-space-6: 2rem;
+  --fp-space-7: 3rem;
+  --fp-space-8: 4.5rem;
+  --fp-space-9: 6.5rem;
+  --fp-space-10: 8rem;
+
+  --fp-page: min(92rem, calc(100% - 6vw));
+  --fp-page-inset: min(92rem, calc(100% - 6vw));
+  --fp-measure: 34rem;
+  --fp-header-h: 4.25rem;
+  --fp-radius-btn: 999px;
+  --fp-hairline: rgba(19, 41, 77, 0.14);
+  --fp-hairline-light: rgba(244, 241, 228, 0.22);
+
+  --fp-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --fp-duration: 280ms;
+}

@@ -4,9 +4,12 @@ Static preview site for sharing website mockups with the client.
 
 ## Mockups included
 
-- **Mockup 2** — Trust and credibility
-- **Mockup 3** — Bold cinematic (light)
-- **Mockup 3 — Dark** — Same as Mockup 3, dark palette
+- **Grounded** — Ground Truth (cool paper, Record Line, survey-sheet structure)
+- **Sharp** — Trust and credibility (full-bleed cinematic home)
+- **Friendly** — Bold cinematic split-hero; light and dark surface treatments via the switcher bar
+- **Space** — Radian Fluid structure (oversized type, inset imagery, gallery-style sections)
+
+Design milestone coverage: Home, Services hub, **7 service detail pages**, Carbon Grazing Australia™, Contact — plus About and a Privacy Policy stub. Four layout directions; Friendly also has a light/dark theme flip.
 
 ## Rebuild from source
 

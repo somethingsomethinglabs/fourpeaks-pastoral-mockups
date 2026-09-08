@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Stylised vineyard field at first light</title>
+  <desc id="desc">An editorial illustration of vineyard rows, distant hills and a small field vehicle.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9c9b5"/>
+      <stop offset="0.55" stop-color="#eadfcf"/>
+      <stop offset="1" stop-color="#c7a579"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f7657"/>
+      <stop offset="1" stop-color="#26382f"/>
+    </linearGradient>
+    <linearGradient id="row" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5f734e"/>
+      <stop offset="1" stop-color="#18281f"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff6cf" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff6cf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="887" cy="213" r="168" fill="url(#sun)"/>
+  <path d="M0 420C172 337 300 361 439 397c167 44 255-31 408-63 126-27 230-3 353 50v135H0z" fill="#7e795e"/>
+  <path d="M0 474c178-78 323-29 471-15 167 15 295-85 452-70 105 10 191 43 277 86v157H0z" fill="#56644b"/>
+  <path d="M0 535c191-44 370-31 533 5 191 42 393-57 667 16v344H0z" fill="url(#ground)"/>
+  <g opacity="0.95">
+    <path d="M-90 900 392 538h84L105 900z" fill="url(#row)"/>
+    <path d="M174 900 504 538h69L365 900z" fill="url(#row)"/>
+    <path d="M431 900 602 538h63L619 900z" fill="url(#row)"/>
+    <path d="M684 900 699 538h63L870 900z" fill="url(#row)"/>
+    <path d="M938 900 792 538h68l330 362z" fill="url(#row)"/>
+  </g>
+  <g stroke="#b9ad87" stroke-width="4" opacity="0.7">
+    <path d="M82 900 426 541"/><path d="M333 900 534 541"/><path d="M584 900 633 541"/>
+    <path d="M835 900 733 541"/><path d="M1086 900 831 541"/>
+  </g>
+  <g transform="translate(742 515)">
+    <rect x="0" y="22" width="103" height="37" rx="7" fill="#342c28"/>
+    <path d="M22 22 39 0h35l17 22z" fill="#4b3a31"/>
+    <rect x="46" y="6" width="22" height="15" rx="2" fill="#d6cbb7" opacity="0.68"/>
+    <circle cx="25" cy="62" r="14" fill="#1a1c19"/><circle cx="83" cy="62" r="14" fill="#1a1c19"/>
+    <circle cx="25" cy="62" r="6" fill="#8a806d"/><circle cx="83" cy="62" r="6" fill="#8a806d"/>
+  </g>
+</svg>

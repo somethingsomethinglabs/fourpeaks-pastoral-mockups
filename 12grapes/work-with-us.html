@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work with us | 12Grapes</title>
+  <meta name="description" content="A separate expression-of-interest path for people looking for vineyard work with 12Grapes.">
+  <meta name="theme-color" content="#203128">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles-base.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site-config.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="utility-bar">
+    <div class="wrap--wide utility-bar__inner">
+      <span class="utility-bar__service" data-service-area>Australian vineyard enquiries. Mobilisation is confirmed from the job location and timing.</span>
+      <div class="utility-bar__links">
+        <a data-phone-link data-track="phone_link_click" hidden>Call <span data-contact-value></span></a>
+        <a href="index.html#contact">Client enquiry?</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap--wide site-header__inner">
+      <a class="brand" href="index.html" aria-label="12Grapes home">
+        <img class="brand__mark" src="assets/brand-mark.svg" width="64" height="64" alt="">
+        <span><span class="brand__name">12GRAPES</span><span class="brand__tag">Vineyard field services</span></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu" data-nav-toggle>
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-site-nav>
+        <ul class="site-nav__links">
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#capability">Capability</a></li>
+          <li><a href="index.html#process">How it works</a></li>
+          <li><a href="index.html#rates">Rates</a></li>
+          <li><a href="work-with-us.html" aria-current="page">Work with us</a></li>
+        </ul>
+        <a class="btn btn--primary" href="index.html#contact">Discuss a job <span class="btn__arrow" aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="wrap page-hero__grid">
+        <div class="reveal">
+          <p class="eyebrow">Candidate enquiries</p>
+          <h1 id="page-title">Looking for vineyard work?</h1>
+        </div>
+        <div class="page-hero__note reveal">
+          <strong>This path is for candidates.</strong>
+          <span>Vineyard owners and managers should use the separate client job form.</span>
+          <a href="index.html#contact" style="display:inline-block;margin-top:.8rem;color:#fff;font-weight:700">Go to client enquiries</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" aria-labelledby="candidate-form-title">
+      <div class="wrap contact-layout">
+        <aside class="contact-aside reveal">
+          <p class="eyebrow">Expression of interest</p>
+          <h2 id="candidate-form-title">Share the details needed to assess a work enquiry.</h2>
+          <p>Location, availability, work rights, transport, experience and relevant licences can affect the type of work that may be suitable.</p>
+
+          <div class="contact-options" data-contact-options hidden>
+            <a class="contact-option" data-candidate-email-link data-contact-link data-track="candidate_email_click" hidden>
+              <span class="contact-option__icon" aria-hidden="true">E</span>
+              <span><small>Email candidate enquiries</small><strong data-contact-value></strong></span>
+            </a>
+          </div>
+
+          <p class="setup-note" data-contact-setup data-context="candidate"><strong>Website preview:</strong> contact details are hidden and this form does not transmit or store information. It prepares an expression of interest that can be copied or downloaded.</p>
+        </aside>
+
+        <div class="form-card reveal">
+          <div class="form-card__intro">
+            <h3>Candidate details</h3>
+            <p>This form is intentionally separate from client job enquiries. Fields without an optional label are required.</p>
+          </div>
+
+          <form id="candidate-form" method="post" data-form-kind="candidate" novalidate>
+            <div class="error-summary" role="alert" tabindex="-1" hidden>
+              <h4>Check the following fields</h4>
+              <ul></ul>
+            </div>
+
+            <div class="form-grid">
+              <div class="field">
+                <label for="candidate-name">Full name</label>
+                <input id="candidate-name" name="fullName" type="text" autocomplete="name" required>
+                <span class="field-error"></span>
+              </div>
+
+              <div class="field">
+                <label for="candidate-phone">Phone</label>
+                <input id="candidate-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+                <span class="field-error"></span>
+              </div>
+
+              <div class="field">
+                <label for="candidate-email">Email</label>
+                <input id="candidate-email" name="email" type="email" autocomplete="email" required>
+                <span class="field-error"></span>
+              </div>
+
+              <div class="field">
+                <label for="candidate-location">Current location</label>
+                <input id="candidate-location" name="location" type="text" autocomplete="address-level2" required>
+                <span class="field-error"></span>
+              </div>
+
+              <div class="field">
+                <label for="candidate-availability">Availability</label>
+                <input id="candidate-availability" name="availability" type="text" placeholder="Dates or notice period" required>
+                <span class="field-error"></span>
+              </div>
+
+              <div class="field">
+                <label for="candidate-work-rights">Work rights</label>
+                <select id="candidate-work-rights" name="workRights" required>
+                  <option value="">Select an option</option>
+                  <option value="Australian citizen or permanent resident">Australian citizen or permanent resident</option>
+                  <option value="Visa with work rights">Visa with work rights</option>
+                  <option value="Need to discuss">Need to discuss</option>
+                </select>
+                <span class="field-error"></span>
+              </div>
+
+              <div class="field">
+                <label for="candidate-transport">Transport <span class="optional">(optional)</span></label>
+                <input id="candidate-transport" name="transport" type="text" placeholder="For example: own vehicle and licence">
+                <span class="field-error"></span>
+              </div>
+
+              <div class="field">
+                <label for="candidate-preferred-work">Preferred work type <span class="optional">(optional)</span></label>
+                <input id="candidate-preferred-work" name="preferredWork" type="text">
+                <span class="field-error"></span>
+              </div>
+
+              <div class="field field--full">
+                <label for="candidate-licences">Machinery licences or tickets <span class="optional">(optional)</span></label>
+                <input id="candidate-licences" name="licences" type="text" placeholder="List only current, relevant licences or tickets">
+                <span class="field-error"></span>
+              </div>
+
+              <div class="field field--full">
+                <label for="candidate-experience">Relevant experience</label>
+                <textarea id="candidate-experience" name="experience" minlength="20" required placeholder="Vineyard, agriculture, machinery, supervision or other relevant experience."></textarea>
+                <span class="field-error"></span>
+              </div>
+
+              <div class="field field--full hp-field" aria-hidden="true">
+                <label for="candidate-website">Website</label>
+                <input id="candidate-website" name="website" type="text" tabindex="-1" autocomplete="off">
+              </div>
+
+              <div class="field field--full checkbox">
+                <input id="candidate-acknowledge" name="acknowledge" type="checkbox" required>
+                <label for="candidate-acknowledge">I understand this website preview does not transmit or store these details.</label>
+                <span class="field-error"></span>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn--primary" type="submit">Prepare candidate details</button>
+              <a class="btn btn--text" href="index.html#contact">I need vineyard services instead</a>
+            </div>
+
+            <div class="form-status" role="status" aria-live="polite"></div>
+            <div class="brief-output" hidden>
+              <pre></pre>
+              <div class="brief-output__actions">
+                <button class="btn btn--secondary" type="button" data-copy-brief>Copy details</button>
+                <button class="btn btn--secondary" type="button" data-download-brief>Download text file</button>
+              </div>
+            </div>
+
+            <p class="collection-note">This preview does not transmit or store candidate information. A recipient, access rules, storage, retention and deletion process must be confirmed before online submission is enabled. Read the <a href="privacy.html">preview privacy and collection notice</a>.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__grid">
+        <div>
+          <a class="brand" href="index.html" aria-label="12Grapes home">
+            <img class="brand__mark" src="assets/brand-mark.svg" width="64" height="64" alt="">
+            <span><span class="brand__name">12GRAPES</span><span class="brand__tag">Vineyard field services</span></span>
+          </a>
+          <p class="site-footer__summary">Candidate expressions of interest are kept separate from client job enquiries.</p>
+        </div>
+        <div>
+          <h2>Client path</h2>
+          <ul><li><a href="index.html#services">Services</a></li><li><a href="index.html#contact">Discuss a job</a></li></ul>
+        </div>
+        <div>
+          <h2>Information</h2>
+          <ul>
+            <li><a href="privacy.html">Privacy and collection notice</a></li>
+            <li><a data-phone-link data-track="phone_link_click" hidden>Call <span data-contact-value></span></a></li>
+            <li><a data-candidate-email-link data-track="candidate_email_click" hidden>Email <span data-contact-value></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__base"><span>© 2026 12Grapes</span><span>Candidate enquiry path</span></div>
+    </div>
+  </footer>
+</body>
+</html>
